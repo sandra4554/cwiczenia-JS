@@ -6,4 +6,4 @@ function ustawTlo(e) {
 	document.getElementById( "paragraf2" ).style.backgroundColor = "green";
 }
 
-document.getElementById("button").addEventListener("click", ustawTlo);
+document.getElementById( "button" ).addEventListener( "click", ustawTlo );

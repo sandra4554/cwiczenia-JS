@@ -10,6 +10,30 @@
 	<p id="paragraf2">tekst 2</p>
 	<button id="button">Ustaw tło paragrafow</button>
 	
+	<form id="formularz" onsubmit="pobierzImie(event)"><br>
+		Imię: <input type="text" name="fname" value="Krystian"><br><br>
+		
+		Nazwisko: <input type="text" name="lname" value="Dziopa"><br><br>
+		
+		<input type="submit" value="Submit"> 
+	</form>	
+	
+	<form action="">
+		<label for="name">Imię i Nazwisko</label><br>
+		<input type="text" id="name"><br>
+		<label for="email">Adres e-mail</label><br>
+		<input type="text" id="email"><br>
+		<input type="checkbox" id="zgoda-marketingowa-1">
+		<label for="zgoda-marketingowa-1">Wyrażam zgodę pierwszą</label><br>
+		<input type="checkbox" id="zgoda-marketingowa-2">
+		<label for="zgoda-marketingowa-2">Wyrażam zgodę drugą</label><br>
+		<input type="checkbox" id="wszystkie-zgody">
+		<label for="wszytskie-zgody">Wyrażam wszytskie zgody</label><br>
+		<input type="submit" value="Wyslij" id="wyslij">
+	</form>
+	
 	<script src="js/1-zadanie.js"></script>
+	<script src="js/2-zadanie.js"></script>
+	<script src="js/3-zadanie.js"></script>
 </body>
 </html>
